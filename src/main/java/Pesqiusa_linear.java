@@ -16,7 +16,7 @@ public class Pesqiusa_linear {
             if (vetorPesquisado[i].equalsIgnoreCase(elementoProcurado)) {
                 JOptionPane.showMessageDialog(null, "o valor procurado foi encontrado na posição " + i);
                 flag = 1;
-                i=numElementos
+                i=numElementos;
             }
         }
         if (flag == 0) {
